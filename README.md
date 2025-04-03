@@ -96,7 +96,7 @@ END_NODE # The highest x-value
 NODE_COUNT_APPROX # Number of nodes for interpolation
 
 # this is optional and I dont recommend interfering with this
-NODE_COUNT_TRUE - Number of nodes for comparison
+NODE_COUNT_TRUE # Number of nodes for comparison
 ```
 
 Save the file after making your changes
