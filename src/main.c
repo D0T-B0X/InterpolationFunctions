@@ -22,7 +22,7 @@
  * @param approx Approximated value from interpolation
  */
 
-// example function declared here
+// an example function
 double interpolationFunction(float* nodes, double* values, float targetNode, int size);
 
 int main(void) {
