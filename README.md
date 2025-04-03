@@ -91,9 +91,10 @@ If you want to create your own dataset with different parameters:
 Modify these values to change:
 
 ```py
-START_NODE - The lowest x-value
-END_NODE - The highest x-value
-NODE_COUNT_APPROX - Number of nodes for interpolation
+START_NODE # The lowest x-value
+END_NODE # The highest x-value
+NODE_COUNT_APPROX # Number of nodes for interpolation
+
 # this is optional and I dont recommend interfering with this
 NODE_COUNT_TRUE - Number of nodes for comparison
 ```
