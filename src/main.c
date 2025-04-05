@@ -65,6 +65,8 @@ int main(void) {
     double approximate = interpolationFunction(nodes, values, checkNode, size);
     printf("The approximate value at node %.2f is: %.10lf\n", checkNode, approximate);
 
+    free(nodes);
+    free(values);
     return 0;
 }
 
